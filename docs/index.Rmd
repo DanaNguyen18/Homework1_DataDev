@@ -1,0 +1,37 @@
+---
+title: "Dana Nguyen"
+image: "/Users/dananguyen/Desktop/SDS375_DataDev/NY_me.JPG"
+color: "#5A59A3"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/in/dananguyen18"
+  - label: GitHub
+    url: "https://github.com/DanaNguyen18"
+output:
+  postcards::trestles
+---
+
+## Bio
+
+Hello! I'm Dana Nguyen, an undergraduate studying Statistics and Data Science with a Business Minor at the University of Texas at Austin. My future career goal is to become a data analyst, with a specialization in business analytics. In my free time, I enjoy going on hikes, playing the NYT games, and baking.  
+
+---
+
+## Favorite Movies
+
+- Everything Everywhere All at Once
+
+- La La Land
+
+- Soul
+
+- Spirited Away
+
+---
+
+
+```{r, echo = FALSE, comment = NA}
+
+cat(paste0("This website was built on ", Sys.time()))
+
+```
